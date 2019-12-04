@@ -1,0 +1,42 @@
+.main .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.loginTitle {
+    font-size: 70px;
+    margin-bottom: 90px;
+    color: crimson;
+}
+.loginSubTxt {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#go {
+    display: none;
+}
+.loginInput{
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 30px;;
+}
+.startButton {
+    color: #91141B;
+    display: block;
+    font-size: 40px;
+    width: 150px;
+    height: 50px;
+    margin-left: 380px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #E3E04D;
+   
+    border-radius: 10px;
+}
+
+.startButton:hover {
+    color: #E3E04D;
+    background-color: #91141B;
+}

@@ -1,0 +1,205 @@
+/* ----- 基本の設定 ----- */
+body {
+    color: #fff;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Osaka',sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+/* ----- 敵の表示画面 ----- */
+.enemyBox .container{
+    height: 400px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.enemyStatus {
+    float: right;
+    width: 500px;
+    height: 370px;
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+/* ボルボの画像 */
+.boruboImg {
+    width: 240px;
+}
+
+/* ----- 自分の表示画面 ----- */
+.mySelfBox .container{
+    height: 250px;
+    width: 600px;
+    background-color: #000;
+    float: left;
+    margin-left: 100px;
+    z-index: 0;
+    position: relative;
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    border-radius: 20px;
+}
+.mySelfName {
+    margin: 10px;
+}
+.myStatusWrapper {
+    margin-top: 0;
+    margin-left: 50px;
+    color: #fff;
+}
+.mySelfHp {
+    margin-top: 0;
+}
+/* コマンドボタン */
+.commandWrapper {
+    margin-left: 50px;
+    width: 500px;
+}
+.command {
+    display: none;
+}
+.commandLabel {
+    width: 170px;
+    padding: 10px 0;
+    padding-left: 40px;
+    border: solid 2px #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.commandLabelRight{
+    margin-left: 20px;
+}
+.fa-caret-right {
+    padding-right: 20px;
+    color: #000;
+}
+.commandLabel:hover .fa-caret-right {
+    color: #dc143c;
+}
+
+/*----- コンソール画表示面 -----*/
+.consoleBox .container {
+    float: right;
+    margin-right: 100px;
+    box-sizing: border-box;
+    border: 6px dashed #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+}
+.consleTxt {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+/*----- 勝利画面の表示 -----*/
+.finish {
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, .4);
+    position: fixed;
+    z-index: 3;
+}
+.finishCon .container {
+    width: 700px;
+    height: 400px;
+    background: #45ABB5;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+}
+.finishCon .mainTxt {
+    font-size: 100px;
+    color: #dc143c;
+    -webkit-text-stroke: 4px #ffd700;
+    margin-bottom: 0;
+    font-family: 'Superclarendon',sans-serif;
+}
+.finishCon .mainTxtLose {
+    color: #00008b;
+}
+.fhinishCon .subTxt {
+    font-size: 40px;
+    margin: 0;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    color: #000;
+}
+.nextEnemy {
+    display: block;
+    width: 250px;
+    color: #000;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 5px 10px; 
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nextEnemy:hover {
+    border: 3px solid #fff;
+    background: #000;
+    color: #fff;
+}
+
+/*----- 二重選択ブロック画面-----*/
+.block {
+    width: 570px;
+    height: 135px;
+    background-color: #000;
+    z-index: 2;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 110px;
+}
+
+.consoleBlock {
+    width: 370px;
+    height: 100px;
+    background-color: #000;
+    float: right;
+    position: relative;
+    top: -180px;
+    left: -200px;
+    z-index: 2;
+}
+.consoleBlockTxt {
+    color: #fff;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+/* ジョディ */
+.jody {
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, .4);
+    position: fixed;
+    z-index: 3;
+}
+.jody .container {
+    width: 900px;
+    height: 600px;
+    background: #45ABB5;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 100px; 
+    position: relative;
+}
+.jodyImg {
+    width: 900px;
+}
